@@ -13,8 +13,7 @@
 //================================
 
 'use strict';
-var Promise = require('bluebird'),
-    AMQPClient  = require('../lib').Client,
+var AMQPClient  = require('../lib').Client,
     Policy = require('../lib').Policy,
     translator = require('../lib').translator;
 

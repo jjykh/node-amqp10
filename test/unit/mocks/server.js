@@ -1,7 +1,6 @@
 'use strict';
 var _ = require('lodash'),
     BufferList = require('bl'),
-    Promise = require('bluebird'),
     net = require('net'),
     expect = require('chai').expect,
     debug = require('debug')('amqp10:mock:server'),

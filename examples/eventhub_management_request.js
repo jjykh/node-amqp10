@@ -14,8 +14,7 @@
 'use strict';
 //var AMQPClient = require('amqp10').Client;
 var AMQPClient  = require('../lib').Client,
-  Policy = require('../lib').Policy,
-  Promise = require('bluebird');
+  Policy = require('../lib').Policy;
 
 var settingsFile = process.argv[2];
 var settings = {};

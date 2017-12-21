@@ -1,6 +1,5 @@
 'use strict';
-var Promise = require('bluebird'),
-    amqp = require('../../..'),
+var amqp = require('../../..'),
     AMQPClient = amqp.Client,
     Policy = amqp.Policy,
     Errors = amqp.Errors,

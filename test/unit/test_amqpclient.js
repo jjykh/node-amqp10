@@ -1,7 +1,6 @@
 'use strict';
 
 var expect = require('chai').expect,
-    Promise = require('bluebird'),
 
     constants = require('../../lib/constants'),
     Connection = require('../../lib/connection'),

@@ -29,8 +29,7 @@ The basic usage is to require the module, new up a client with the appropriate p
 connecting against, connect, and then send/receive as necessary.  So a simple example for a local Apache Qpid
 server would look like:
 
-    var AMQPClient = require('amqp10').Client,
-        Promise = require('bluebird');
+    var AMQPClient = require('amqp10').Client;
 
     var client = new AMQPClient(); // Uses PolicyBase default policy
     client.connect('amqp://localhost')

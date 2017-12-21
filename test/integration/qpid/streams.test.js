@@ -1,6 +1,5 @@
 'use strict';
-var Promise = require('bluebird'),
-    AMQPClient = require('../../..').Client,
+var AMQPClient = require('../../..').Client,
     config = require('./config'),
     expect = require('chai').expect;
 

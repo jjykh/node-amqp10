@@ -1,6 +1,5 @@
 'use strict';
-var Promise = require('bluebird'),
-    AMQPClient = require('../../..').Client,
+var AMQPClient = require('../../..').Client,
     BrokerAgent = require('qmf2'),
 
     Session = require('../../../lib/session'),

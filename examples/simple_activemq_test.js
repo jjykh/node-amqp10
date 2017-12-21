@@ -1,7 +1,6 @@
 'use strict';
 //var AMQPClient = require('amqp10').Client;
-var AMQPClient  = require('../lib').Client,
-    Promise = require('bluebird');
+var AMQPClient  = require('../lib').Client;
 
 var uri = 'amqp://some.host',
     msgId = Math.floor(Math.random() * 10000),
