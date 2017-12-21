@@ -1,6 +1,6 @@
 {
-  "name": "amqp-js",
-  "version": "4.0.0",
+  "name": "amqp-nodejs",
+  "version": "4.0.1",
   "description": "AMQP-1.0 client for node.js",
   "main": "./lib",
   "engines": {
